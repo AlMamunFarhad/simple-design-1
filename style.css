@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*>* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-2,
+.section-3,
+.section-4 {
+    padding: 2rem 0 !important;
+}
+
+/*========================== Nav ============================ */
+ul li {
+    list-style-type: none;
+
+}
+
+nav h3 a {
+    color: hsl(252, 30%, 17%);
+
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul .active {
+    color: rgb(3, 179, 248);
+}
+
+nav ul li a {
+    margin-left: 30px;
+    color: hsl(252, 30%, 17%);
+}
+
+nav ul li a:hover {
+    color: hsl(252, 5%, 58%);
+    transition: all ease-in-out;
+
+}
+
+/*========================== Nav End ============================ */
+/* ======================== section-1 =========================== */
+main {
+    background: hsl(270, 17%, 95%);
+}
+
+.section-1 .background {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to right, rgb(12, 171, 235), rgb(221, 221, 22));
+    overflow: hidden;
+
+}
+
+.section-1 .content {
+    text-align: center;
+    width: 100%;
+
+}
+
+main .section-1 .content-body {
+    width: 35%;
+    margin: 15% auto;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+main .section-1 .content-body p {
+    color: hsl(252, 30%, 100%);
+}
+
+main .section-1 .content-body button {
+    margin-top: 25px;
+    padding: 13px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background: rgb(10, 300, 252);
+    z-index: 3;
+}
+
+main .section-1 .content-body button:hover {
+    background: transparent;
+    border: 1px solid #000;
+    color: white;
+    transition: all ease;
+
+
+}
+
+/* ======================== section-1 End =========================== */
+/* =========================== section-2 ============================= */
+main .section-2 {
+    margin-top: 150px;
+
+}
+
+main .section-2 .cards h1 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+main .section-2 .card {
+    background: hsl(252, 30%, 100%);
+    text-align: center;
+    z-index: 10;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 7%;
+    transition: .4s;
+    padding: 0;
+}
+
+main .section-2 .card:hover {
+    box-shadow: 10px 10px 20px hsl(252, 15%, 80%);
+}
+
+main .card .images {
+    overflow: hidden;
+}
+
+main .card .img-fluid {
+    max-width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    transition: all 1s ease-in-out;
+}
+
+main .card .img-fluid:hover {
+    transform: scale(1.4);
+}
+
+.section-2 .card .card-body h3 {
+    margin-bottom: .7rem;
+    color: black;
+    overflow: hidden;
+}
+
+.section-2 .card .card-body p {
+    color: hsl(252, 15%, 65%);
+}
+
+.card .card-body .btn button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    background: rgb(2, 300, 252);
+    border: none;
+    color: black;
+    border-radius: 5px;
+    transition: .4s;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.card .card-body .btn button:hover {
+    color: hsl(255, 30%, 5%);
+    background: hsl(252, 30%, 97%);
+    border: 1px solid #000;
+
+}
+
+/* =========================== section-2 End============================= */
+/* =========================== section-3============================= */
+main .section-3 .youtube-video {
+    width: 100%;
+}
+
+.section-3 .video .walker {
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 10%;
+}
+
+/* =========================== section-3 End============================= */
+/* =========================== section-4 ================================ */
+.section-4 .table-body h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.section-4 table {
+    width: 100%;
+    height: fit-content;
+    background: hsl(255, 100%, 100%);
+    z-index: 5;
+    margin-top: 40px;
+    transition: all ease-in-out;
+}
+
+.section-4 table tr:hover {
+    background: rgba(248, 247, 247, 0.932);
+    color: black;
+}
+
+.section-4 .table-body table,
+thead,
+th {
+    border: 1px solid rgb(210, 223, 223);
+    border-collapse: collapse;
+    padding: 12px 0;
+
+    /* background: hsl(162, 98%, 48%); */
+
+}
+
+.section-4 thead tr th {
+    background: hsl(182, 100%, 50%);
+
+}
+
+.section-4 .table-body table,
+tbody,
+td {
+    border: 1px solid rgb(150, 147, 147);
+    text-align: center;
+    padding: 12px 0;
+
+}
+
+.section-4 .table-body table tbody td {
+    color: rgb(80, 77, 77);
+}
+
+@media screen and (max-width: 992px) {
+    main .section-1 .content-body {
+        width: 90%;
+
+    }
+}
+
+
+
+/* =========================== section-4 End============================= */
